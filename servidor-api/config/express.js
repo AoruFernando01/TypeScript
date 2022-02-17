@@ -14,6 +14,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-routes(app); 
+routes(app);
 
 module.exports = app;
